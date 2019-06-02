@@ -38,7 +38,8 @@ li:last-child {
 h3 {
     color: teal;
     padding-top: 25px;
-}
+    padding-bottom: 25px;
+}  
 
 .container {
     background-color: white;
@@ -60,4 +61,4 @@ footer {
     border-top-style: solid;
     border-color: teal;
     border-width: thick;
-}    
+}  

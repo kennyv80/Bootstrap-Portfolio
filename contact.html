@@ -8,28 +8,30 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="contact.css">
     <title>Kenny Virgil's Contact</title>
 </head>
 <body>
-        <ul class="nav">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Kenny Virgil</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-              </ul>
+        <nav class="navbar sticky-top navbar-light bg-light">
+                <a class="navbar-brand"><h2>Kenny Virgil</h2></a>
+            
+            <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>  
+              </nav>
          
         <div class= "container">      
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Contact</h2>
+                    <h3>Contact</h3>
                 </div>
             </div>
             <div class="row">
@@ -37,26 +39,25 @@
                         <form>
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Name</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Name">
+                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="John Smith">
                             </div>
                             <div class="form-group">
                                   <label for="exampleInputPassword1">Email</label>
-                                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="example@gmail.com">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Message</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Message">
+                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Message">
                             </div>
                                 <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                 </div>
             </div>    
         </div>
+
         <footer class="footer">
-            <div class="container">
-                <span class="text-muted">Made with love in Austin, TX.</span>
-            </div>
-        </footer>   
+                <span class="text">Made with love in Austin, TX</span>
+            </footer> 
     
 </body>
 </html>
