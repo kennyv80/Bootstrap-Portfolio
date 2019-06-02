@@ -38,22 +38,23 @@ li:last-child {
 h3 {
     color: teal;
     padding-top: 25px;
-}
+}  
 
 hr {
-    border: 0;  
-    clear:both;
-    display:block;
-    width: 96%;               
-    background-color: #cccccc;
-    height: 1px;
-  }
+  border: 0;  
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color: #cccccc;
+  height: 1px;
+}
 
 .container {
     background-color: white;
     border-style: solid;
     border-color: #cccccc;
     border-width: thin;
+    padding-bottom: 25px;
 }
 
 footer {
@@ -69,4 +70,4 @@ footer {
     border-top-style: solid;
     border-color: teal;
     border-width: thick;
-}    
+}  

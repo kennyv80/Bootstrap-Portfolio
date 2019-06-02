@@ -37,8 +37,17 @@ li:last-child {
 
 h3 {
     color: teal;
-    padding: 25px 0 25px 0;
+    padding-top: 25px;
 }  
+
+hr {
+  border: 0;  
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color: #cccccc;
+  height: 1px;
+}
 
 .container {
     background-color: white;
